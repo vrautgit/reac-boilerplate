@@ -1,4 +1,4 @@
-# Floor Manager
+# React Boilerplate
 
 ## Installation
 ```
