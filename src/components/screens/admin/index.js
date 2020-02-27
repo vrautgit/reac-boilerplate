@@ -11,9 +11,6 @@ import '../../../assets/styles/admin.scss';
 import { appContants } from '../../../config';
 import Dashboard from './dashboard';
 import RoleManagement from './roleManagement';
-import DeviceManager from './deviceManager';
-import CabinManager from './cabinManager';
-import Employee from './employee';
 
 const { routes } = appContants;
 
@@ -47,8 +44,8 @@ class Admin extends Component {
       <div className="admin-container">
         <header className="header">
           <div className="app-name">
-            <span className="part-1">Floor</span>
-            <span>Manager</span>
+            <span className="part-1">React</span>
+            <span>Boilerplate</span>
           </div>
         </header>
         <aside className="sidebar">
@@ -72,15 +69,6 @@ class Admin extends Component {
             </Route>
             <Route path={`${path}/role-management`}>
               <RoleManagement />
-            </Route>
-            <Route path={`${path}/device-manager`}>
-              <DeviceManager />
-            </Route>
-            <Route path={`${path}/cabin-manager`}>
-              <CabinManager />
-            </Route>
-            <Route path={`${path}/employee`}>
-              <Employee />
             </Route>
           </Switch>
         </div>

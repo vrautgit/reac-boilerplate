@@ -1,5 +1,5 @@
 {
-  "name": "neo-floor-manager-web",
+  "name": "react-boilerplate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +13,12 @@
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0",
-    "reactstrap": "^8.2.0"
+    "reactstrap": "^8.2.0",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6"
   },
   "scripts": {
     "start": "env-cmd -f .env.development react-scripts start",
